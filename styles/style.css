@@ -18,6 +18,12 @@
 
 :root {
   --white-color: #fff;
+  --danger-color: #b80924;
+}
+
+::selection {
+  color: var(--white-color);
+  background-color: var(--danger-color);
 }
 
 html {
@@ -27,3 +33,61 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* ============= 
+      utilities
+   ============== */
+
+.danger__button {
+  color: var(--white-color);
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+  padding: 15px 27px;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  line-height: 16px;
+  white-space: nowrap;
+  transition: 0.3s;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 18%);
+  user-select: none;
+  border-radius: 5px;
+}
+
+.danger__button:hover {
+  color: var(--danger-color);
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+/* ==================
+    carousel start
+   ================  */
+#carousel__container {
+  position: relative;
+}
+
+.carousel__content {
+  position: absolute;
+  top: 30%;
+  left: 50px;
+  color: var(--white-color);
+  width: 62%;
+}
+
+.carousel__content h2 {
+  font-weight: 700;
+  line-height: 1.27273;
+  font-size: 44px;
+}
+
+.carousel__content h5 {
+  font-weight: 400;
+  line-height: 1.27273;
+  font-size: 18px;
+}
+
+/* ==================
+      carousel end
+   ================  */
