@@ -21,6 +21,7 @@
   --danger-color: #b80924;
   --text-color: #2d2e2e;
   --blue-color: #0d2d62;
+  --heading-color: #b3bfdc;
 }
 
 ::selection {
@@ -65,6 +66,7 @@ h6 {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 18%);
   user-select: none;
   border-radius: 10px;
+  font-weight: 700;
 }
 
 .danger__button:hover {
@@ -80,7 +82,7 @@ h6 {
 }
 
 .section__content {
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .learn__more {
@@ -97,12 +99,25 @@ h6 {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 18%);
   user-select: none;
   border-radius: 10px;
+  font-weight: 800;
 }
 
 .learn__more:hover {
   color: var(--white-color);
   background-color: var(--blue-color);
   border-color: var(--blue-color);
+}
+
+.card__title {
+  color: var(--danger-color);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card__text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.6;
 }
 /* ===================== 
       utilities end
@@ -151,3 +166,56 @@ h6 {
 }
 
 /* about us end */
+
+/* Courses and Programme Finder section start */
+
+#courses {
+  overflow: hidden;
+  background-color: var(--blue-color);
+}
+
+#courses h1,
+#courses .section__content {
+  color: var(--heading-color);
+}
+
+.statistics__card i {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--heading-color);
+  margin: 0 auto;
+  text-align: center;
+  color: var(--blue-color);
+}
+
+/* Courses and Programme Finder section end */
+
+/* Statistics section start */
+
+.statistics__card h5 {
+  color: var(--danger-color);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.statistics__card h6 {
+  line-height: 1.22222;
+  font-size: 18px;
+}
+
+/* Statistics section end */
+
+/* student section start */
+
+#student {
+  background-image: url("../images/students.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* student section end */
