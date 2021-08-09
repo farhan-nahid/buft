@@ -232,3 +232,65 @@ h6 {
 }
 
 /* ICTAF 2020 section end */
+
+/* footer start */
+
+footer {
+  background-color: var(--blue-color);
+}
+
+footer h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+footer p {
+  font-size: 14px;
+  color: var(--heading-color);
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--heading-color);
+  margin-bottom: 15px;
+  transition: color 0.3s ease-in;
+}
+
+footer ul li:hover {
+  color: var(--white-color);
+}
+footer ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+footer button {
+  color: var(--white-color);
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+  border: 0;
+  outline: none;
+  padding: 0 20px;
+  height: calc(3.5rem + 2px);
+  font-size: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  transition: 0.3s;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 18%);
+  user-select: none;
+  font-weight: 800;
+}
+
+footer button:hover {
+  color: var(--danger-color);
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+/* footer end */
