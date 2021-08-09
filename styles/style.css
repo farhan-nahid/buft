@@ -240,7 +240,6 @@ h6 {
   background-image: url("../images/students.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
 }
 
@@ -363,6 +362,10 @@ footer p {
   color: var(--heading-color);
 }
 
+.important__link {
+  padding-left: 120px;
+}
+
 footer ul {
   list-style-type: none;
 }
@@ -378,6 +381,7 @@ footer ul li {
 footer ul li:hover {
   color: var(--white-color);
 }
+
 footer ul li:last-of-type {
   margin-bottom: 0;
 }
@@ -407,3 +411,34 @@ footer button:hover {
 }
 
 /* footer end */
+
+@media only screen and (max-width: 992px) {
+  .danger__button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .carousel__content {
+    top: 0%;
+    width: 100%;
+  }
+
+  .carousel__content h2 {
+    font-size: 24px;
+  }
+
+  .carousel__content h5 {
+    font-size: 14px;
+  }
+
+  .important__link {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .important__link {
+    margin: 50px 0;
+    padding-left: 0px;
+  }
+}
