@@ -112,6 +112,11 @@ h6 {
   color: var(--danger-color);
   font-weight: 700;
   font-size: 18px;
+  transition: color 0.2s ease-in;
+}
+
+.card__title:hover {
+  color: var(--blue-color);
 }
 
 .card__text {
@@ -219,3 +224,11 @@ h6 {
 }
 
 /* student section end */
+
+/* ICTAF 2020 section start */
+
+.ictaf__image:hover {
+  background-color: #0d2e625b;
+}
+
+/* ICTAF 2020 section end */
