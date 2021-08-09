@@ -233,6 +233,12 @@ h6 {
 
 /* ICTAF 2020 section end */
 
+.fa-calendar-times {
+  color: var(--blue-color);
+  font-size: 18px;
+  margin-right: 15px;
+}
+
 /* footer start */
 
 footer {
