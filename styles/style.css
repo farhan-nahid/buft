@@ -154,6 +154,13 @@ h6 {
    ================  */
 #carousel__container {
   position: relative;
+  height: 100vh;
+}
+
+#carousel__container img {
+  height: 100vh;
+  width: 100%;
+  object-fit: fill;
 }
 
 .carousel__content {
@@ -420,16 +427,20 @@ footer button:hover {
 
   .carousel__content {
     top: 0%;
+    left: 0;
+    text-align: center;
     width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
   }
-
+  /* 
   .carousel__content h2 {
     font-size: 24px;
   }
 
   .carousel__content h5 {
     font-size: 14px;
-  }
+  } */
 
   .important__link {
     padding-left: 60px;
