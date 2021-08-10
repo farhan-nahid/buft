@@ -19,6 +19,13 @@ counters.forEach((counter) => {
   updateCount();
 });
 
+// sticky
+
+window.addEventListener("scroll", function () {
+  var navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("sticky", window.scrollY > 0);
+});
+
 //Get the button
 var myButton = document.getElementById("myBtn");
 
